@@ -1,4 +1,3 @@
 locators\locators.class
-config\BaseConfig.class
+driver\DriverManager.class
 constant\Constant.class
-pages\PagesDefinition.class

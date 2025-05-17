@@ -13,8 +13,5 @@
         <module name="Orange" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Orange" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>

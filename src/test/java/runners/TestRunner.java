@@ -1,16 +1,16 @@
 package runners;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
-import org.junit.runner.RunWith;
+import org.junit.platform.suite.api.ConfigurationParameter;
+import org.junit.platform.suite.api.IncludeEngines;
+import org.junit.platform.suite.api.SelectClasspathResource;
+import org.junit.platform.suite.api.Suite;
+import static io.cucumber.junit.platform.engine.Constants.*;
 
-@RunWith(Cucumber.class)
-@CucumberOptions(
-        features = "src/test/resources/features",
-        glue = {"stepsDefinitions"},
-        plugin = {"pretty", "html:target/cucumber-reports.html"},
-        monochrome = true,
-        dryRun = true
-)
+@Suite
+@IncludeEngines("cucumber")
+@SelectClasspathResource("features") // src/test/resources/features
+@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "stepsDefinition")
+@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty, html:target/cucumber.html")
+@ConfigurationParameter(key = "cucumber.execution.monochrome", value = "true")
 public class TestRunner {
 }

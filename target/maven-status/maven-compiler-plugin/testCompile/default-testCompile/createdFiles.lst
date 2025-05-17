@@ -1,2 +1,4 @@
+stepsDefinition\Hooks.class
+stepsDefinition\StepsOrangeDefinitions.class
 runners\TestRunner.class
-stepsDefinitions\StepsLibeyDefinitions.class
+pages\PagesDefinition.class
