@@ -10,7 +10,9 @@ TODO: Guide users through getting your code up and running on their own system. 
 4.	API references
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+TODO: para ejecutar el proyecto simplemente nos ubicamos en el proyecto y escribimos:
+1.  mvn clean test 
+2.  se ejecutaran las pruebas y se puede revisar al reporte al final
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
