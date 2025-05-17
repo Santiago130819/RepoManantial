@@ -1,0 +1,4 @@
+locators\locators.class
+config\BaseConfig.class
+constant\Constant.class
+pages\PagesDefinition.class
