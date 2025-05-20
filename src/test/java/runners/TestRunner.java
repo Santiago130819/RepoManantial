@@ -10,6 +10,7 @@ import static io.cucumber.junit.platform.engine.Constants.*;
 @IncludeEngines("cucumber")
 @SelectClasspathResource("features") // src/test/resources/features
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "stepsDefinition")
+@ConfigurationParameter(key = "cucumber.filter.tags", value = "@LOGIN")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty, html:target/cucumber.html")
 @ConfigurationParameter(key = "cucumber.execution.monochrome", value = "true")
 public class TestRunner {
