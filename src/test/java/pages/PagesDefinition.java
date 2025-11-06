@@ -72,46 +72,31 @@ public class PagesDefinition  {
         }
     }
     public void seleccionMenuAdd(String opcion){
-        driver.findElement(locators.OPTION_ADMIN).click();
+        driver.findElement(locators.OPTION_PIM).click();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
         driver.findElement(locators.BTN_ADD).click();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+        driver.findElement(locators.CHECKBOX_CREATE_DETAILS).click();
     }
-    public void registroNuevoUsuario(String role, String name, String status, String user, String pas) throws InterruptedException {
-        WebElement combo = driver.findElement(locators.SELECT_ROL);
-        if (combo.isEnabled()) {
-            combo.click();
-            List<WebElement> opciones = driver.findElements(By.xpath("//div[@role='option']"));
-            for (WebElement opcion : opciones) {
-                if (opcion.getText().equalsIgnoreCase(role)) {
-                    opcion.click();
-                    break;
-                }
-            }
-        } else {
-            System.out.println("no esta habilitado el elemento");
-        }
-        WebElement inputName = driver.findElement(locators.INPUT_EMPLOYE_NAME);
-        inputName.sendKeys(name);
-        Thread.sleep(3000);
-        inputName.sendKeys(Keys.DOWN);
-        inputName.sendKeys(Keys.ENTER);
-        WebElement estado = driver.findElement(locators.SELECT_STATUS);
-        if (estado.isEnabled()) {
-            estado.click();
-            List<WebElement> opciones = driver.findElements(By.xpath("//div[@role='option']"));
-            for (WebElement opcion : opciones) {
-                if (opcion.getText().equalsIgnoreCase(status)) {
-                    opcion.click();
-                    break;
-                }
-            }
-        } else {
-            System.out.println("no esta habilitado el elemento");
+    public void registroNuevoUsuario(String firstName, String last, String status, String user, String pas) throws InterruptedException {
+        WebElement inputName = driver.findElement(locators.INPUT_FISRT_NAME);
+        inputName.sendKeys(firstName);
+        WebElement lastName = driver.findElement(locators.INPUT_LAST_NAME);
+        lastName.sendKeys(last);
+        WebElement radioOK = driver.findElement(locators.RADIO_STATUS_ENABLED);
+        WebElement radioNOOK = driver.findElement(locators.RADIO_STATUS_DISABLED);
+        if(status.equalsIgnoreCase("Enabled")){
+            radioOK.click();
+        }else {
+            radioNOOK.click();
         }
         WebElement inputUserName = driver.findElement(locators.INPUT_USER_NAME);
         inputUserName.sendKeys(user);
         WebElement inputPass = driver.findElement(locators.INPUT_PASSWORD);
+        inputPass.click();
         inputPass.sendKeys(pas);
+        inputPass.sendKeys(Keys.TAB);
+        Thread.sleep(Duration.ofSeconds(2));
         WebElement inputRePass = driver.findElement(locators.INPUT_REPASSWORD);
         inputRePass.sendKeys(pas);
         WebElement save = driver.findElement(locators.BTN_SAVE);

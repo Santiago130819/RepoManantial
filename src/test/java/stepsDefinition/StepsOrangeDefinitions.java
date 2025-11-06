@@ -37,8 +37,8 @@ public class StepsOrangeDefinitions  {
         pagesDefinition.seleccionMenuAdd(opcion);
     }
     @Then("ingreso los datos {string} {string} {string} {string} {string}")
-    public void ingresoNuevoUsuario(String role, String name, String status, String user, String pass) throws InterruptedException {
-        pagesDefinition.registroNuevoUsuario(role, name, status, user, pass);
+    public void ingresoNuevoUsuario(String firstName, String last, String status, String user, String pass) throws InterruptedException {
+        pagesDefinition.registroNuevoUsuario(firstName, last, status, user, pass);
     }
     @And("verifico el registro")
     public void verificoElRegistro(){

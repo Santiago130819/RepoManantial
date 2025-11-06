@@ -6,11 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="d2f2b812-f7be-4381-b8a1-b663364c66df" name="Changes" comment="primera carga">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locators/locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locators/locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PagesDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PagesDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsDefinition/StepsOrangeDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/StepsOrangeDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AgregarUsuario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AgregarUsuario.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/locators/locators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/locators/locators.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runners.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runners.TestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AgregarUsuario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AgregarUsuario.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PagesDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PagesDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinition/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/StepsOrangeDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinition/StepsOrangeDefinitions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,42 +53,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: Login.executor": "Run",
-    "Cucumber Java.Feature: login.executor": "Run",
-    "Cucumber Java.Scenario: El usuario procede a ingresar a la plataforma desde la vista principal (1).executor": "Run",
-    "Cucumber Java.Scenario: El usuario procede a ingresar a la plataforma desde la vista principal.executor": "Run",
-    "Cucumber Java.Scenario: El usuario utiliza el filtro para visualizar unicamente los usuarios que tienen el rol de Admin.executor": "Run",
-    "Cucumber Java.Scenario: agendar citas para pacientes particulares.executor": "Run",
-    "Cucumber Java.Scenario: agregar nuevo usuario (1).executor": "Run",
-    "Cucumber Java.Scenario: agregar nuevo usuario.executor": "Run",
-    "Cucumber Java.Scenario: prueba de login Libey.executor": "Run",
-    "Cucumber Java.Scenario: prueba de login Orange.executor": "Run",
-    "Cucumber Java.Scenario: prueba de login.executor": "Run",
-    "JUnit.TestRunner.executor": "Run",
-    "Maven.Libey [clean].executor": "Run",
-    "Maven.Libey [compile].executor": "Run",
-    "Maven.Libey [install].executor": "Run",
-    "Maven.Libey [test].executor": "Run",
-    "Maven.Orange [clean].executor": "Run",
-    "Maven.Orange [compile].executor": "Run",
-    "Maven.Orange [test].executor": "Run",
-    "Maven.Orange [validate].executor": "Run",
-    "Maven.Orange [verify].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Orange",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.prueba.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: El usuario procede a ingresar a la plataforma desde la vista principal (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: El usuario procede a ingresar a la plataforma desde la vista principal.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: El usuario utiliza el filtro para visualizar unicamente los usuarios que tienen el rol de Admin.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: agendar citas para pacientes particulares.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: agregar nuevo usuario (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: agregar nuevo usuario.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: prueba de login Libey.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: prueba de login Orange.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: prueba de login.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Libey [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Libey [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Libey [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Libey [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Orange [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Orange [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Orange [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Orange [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Orange [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Orange&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pages" />
@@ -99,7 +109,20 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Login">
+  <component name="RunManager" selected="Cucumber Java.Scenario: El usuario procede a ingresar a la plataforma desde la vista principal (1)">
+    <configuration name="prueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="locators.prueba" />
+      <module name="Orange" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
@@ -178,33 +201,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: agregar nuevo usuario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Orange.feature" />
-      <option name="GLUE" value="stepsDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Orange" />
-      <option name="NAME_FILTER" value="^agregar nuevo usuario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^agregar nuevo usuario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: agregar nuevo usuario" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Scenario: El usuario procede a ingresar a la plataforma desde la vista principal (1)" />
+        <item itemvalue="Application.prueba" />
+        <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Scenario: agregar nuevo usuario (1)" />
         <item itemvalue="Cucumber Java.Scenario: El usuario procede a ingresar a la plataforma desde la vista principal" />
-        <item itemvalue="Cucumber Java.Scenario: agregar nuevo usuario" />
       </list>
     </recent_temporary>
   </component>
